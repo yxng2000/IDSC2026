@@ -64,7 +64,7 @@ y_test = np.array(y_test)
 print("Testing dataset shape:", X_test.shape)
 
 
-# 5. Build model with EfficientNet80
+# 5. Build model with EfficientNetB0
 
 
 # Load EfficientNetB0 without top classification layers
