@@ -1,6 +1,3 @@
-#BEST VERSION CODE EVER RAHHHHHHHHHHHHH (EfficientNet by Claude YESSSS)
-
-
 import pandas as pd
 import numpy as np
 import os
@@ -13,11 +10,11 @@ from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
 
 
 # 1. Load datasets
-train_df = pd.read_csv("/content/drive/MyDrive/Colab Notebooks/IDSC2026/train_dataset.csv")
-test_df  = pd.read_csv("/content/drive/MyDrive/Colab Notebooks/IDSC2026/test_dataset.csv")
+train_df = pd.read_csv("train_dataset.csv")
+test_df  = pd.read_csv("test_dataset.csv")
 
 
-image_folder = "/content/drive/MyDrive/Colab Notebooks/IDSC2026/images_resized"
+image_folder = "images_resized"
 
 
 # 2. Prepare training data
